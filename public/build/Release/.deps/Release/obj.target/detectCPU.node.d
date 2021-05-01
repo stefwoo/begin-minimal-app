@@ -1,0 +1,1 @@
+cmd_Release/obj.target/detectCPU.node := g++ -shared -pthread -rdynamic -m64  -Wl,-soname=detectCPU.node -o Release/obj.target/detectCPU.node -Wl,--start-group Release/obj.target/detectCPU/native/detectCPU.o -Wl,--end-group 

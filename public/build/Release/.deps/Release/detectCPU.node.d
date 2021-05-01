@@ -1,0 +1,1 @@
+cmd_Release/detectCPU.node := ln -f "Release/obj.target/detectCPU.node" "Release/detectCPU.node" 2>/dev/null || (rm -rf "Release/detectCPU.node" && cp -af "Release/obj.target/detectCPU.node" "Release/detectCPU.node")
