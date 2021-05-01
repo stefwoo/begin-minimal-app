@@ -12,20 +12,20 @@
 
 // exports.handler = async (event, context, callback[可选]) => { return data;}
 //华为云
-exports.handler = async (event, context) => {
-    const output =
-    {
-        'statusCode': 200,
-        'headers':
-        {
-            'Content-Type': 'application/json'
-        },
-        'isBase64Encoded': false,
-        'body': JSON.stringify(event),
-    }
-    // main();
-    return output;
-}
+// exports.handler = async (event, context) => {
+//     const output =
+//     {
+//         'statusCode': 200,
+//         'headers':
+//         {
+//             'Content-Type': 'application/json'
+//         },
+//         'isBase64Encoded': false,
+//         'body': JSON.stringify(event),
+//     }
+//     // main();
+//     return output;
+// }
 
 //aws
 // exports.handler = async (event) => {
